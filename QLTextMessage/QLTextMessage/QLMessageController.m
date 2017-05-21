@@ -40,8 +40,8 @@ static NSString *const cellID = @"QLTextMessageCell";
     
     NSString *message = @"我是一条消息";
     
-    for (int i = 0; i < 10; i++) {
-        NSInteger num = (arc4random() % 10) + 1;
+    for (int i = 0; i < 20; i++) {
+        NSInteger num = (arc4random() % 20) + 1;
         NSMutableString *str = [@"" mutableCopy];
         NSLog(@"%@", [NSThread currentThread]);
         for (int i = 0; i < num; i++) {
@@ -50,8 +50,7 @@ static NSString *const cellID = @"QLTextMessageCell";
         MessageModel *model = [[MessageModel alloc]init];
         model.textContent = str;
         [self.dataArray addObject:model];
-
-        
+ 
     }
 
     
