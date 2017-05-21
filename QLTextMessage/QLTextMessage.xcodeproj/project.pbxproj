@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91B859A65896D22F64A5439 /* libPods-QLTextMessage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D15A2229AFF8EB101515CA /* libPods-QLTextMessage.a */; };
+		E48FC9331ED1B0A30036B04C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9321ED1B0A30036B04C /* main.m */; };
+		E48FC9361ED1B0A30036B04C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9351ED1B0A30036B04C /* AppDelegate.m */; };
+		E48FC9391ED1B0A40036B04C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9381ED1B0A40036B04C /* ViewController.m */; };
+		E48FC93C1ED1B0A40036B04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48FC93A1ED1B0A40036B04C /* Main.storyboard */; };
+		E48FC93E1ED1B0A40036B04C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48FC93D1ED1B0A40036B04C /* Assets.xcassets */; };
+		E48FC9411ED1B0A40036B04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48FC93F1ED1B0A40036B04C /* LaunchScreen.storyboard */; };
+		E48FC94C1ED1B0A40036B04C /* QLTextMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC94B1ED1B0A40036B04C /* QLTextMessageTests.m */; };
+		E48FC9571ED1B0A40036B04C /* QLTextMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9561ED1B0A40036B04C /* QLTextMessageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E48FC9481ED1B0A40036B04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48FC9261ED1B0A30036B04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48FC92D1ED1B0A30036B04C;
+			remoteInfo = QLTextMessage;
+		};
+		E48FC9531ED1B0A40036B04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48FC9261ED1B0A30036B04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48FC92D1ED1B0A30036B04C;
+			remoteInfo = QLTextMessage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23D15A2229AFF8EB101515CA /* libPods-QLTextMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QLTextMessage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8C3D329D9DBA8C34AFB8D1 /* Pods-QLTextMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLTextMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QLTextMessage/Pods-QLTextMessage.debug.xcconfig"; sourceTree = "<group>"; };
+		D307DF14FCD88C938583D8D8 /* Pods-QLTextMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLTextMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-QLTextMessage/Pods-QLTextMessage.release.xcconfig"; sourceTree = "<group>"; };
+		E48FC92E1ED1B0A30036B04C /* QLTextMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLTextMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48FC9321ED1B0A30036B04C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E48FC9341ED1B0A30036B04C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E48FC9351ED1B0A30036B04C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E48FC9371ED1B0A30036B04C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E48FC9381ED1B0A40036B04C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E48FC93B1ED1B0A40036B04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E48FC93D1ED1B0A40036B04C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E48FC9401ED1B0A40036B04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E48FC9421ED1B0A40036B04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48FC9471ED1B0A40036B04C /* QLTextMessageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLTextMessageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48FC94B1ED1B0A40036B04C /* QLTextMessageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTextMessageTests.m; sourceTree = "<group>"; };
+		E48FC94D1ED1B0A40036B04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48FC9521ED1B0A40036B04C /* QLTextMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLTextMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48FC9561ED1B0A40036B04C /* QLTextMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTextMessageUITests.m; sourceTree = "<group>"; };
+		E48FC9581ED1B0A40036B04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48FC92B1ED1B0A30036B04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91B859A65896D22F64A5439 /* libPods-QLTextMessage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC9441ED1B0A40036B04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC94F1ED1B0A40036B04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87407F4479D6609E8412E34E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23D15A2229AFF8EB101515CA /* libPods-QLTextMessage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899461C6086A0DF9B8DC7DC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF8C3D329D9DBA8C34AFB8D1 /* Pods-QLTextMessage.debug.xcconfig */,
+				D307DF14FCD88C938583D8D8 /* Pods-QLTextMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E48FC9251ED1B0A30036B04C = {
+			isa = PBXGroup;
+			children = (
+				E48FC9301ED1B0A30036B04C /* QLTextMessage */,
+				E48FC94A1ED1B0A40036B04C /* QLTextMessageTests */,
+				E48FC9551ED1B0A40036B04C /* QLTextMessageUITests */,
+				E48FC92F1ED1B0A30036B04C /* Products */,
+				899461C6086A0DF9B8DC7DC8 /* Pods */,
+				87407F4479D6609E8412E34E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E48FC92F1ED1B0A30036B04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48FC92E1ED1B0A30036B04C /* QLTextMessage.app */,
+				E48FC9471ED1B0A40036B04C /* QLTextMessageTests.xctest */,
+				E48FC9521ED1B0A40036B04C /* QLTextMessageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48FC9301ED1B0A30036B04C /* QLTextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				E48FC9341ED1B0A30036B04C /* AppDelegate.h */,
+				E48FC9351ED1B0A30036B04C /* AppDelegate.m */,
+				E48FC9371ED1B0A30036B04C /* ViewController.h */,
+				E48FC9381ED1B0A40036B04C /* ViewController.m */,
+				E48FC93A1ED1B0A40036B04C /* Main.storyboard */,
+				E48FC93D1ED1B0A40036B04C /* Assets.xcassets */,
+				E48FC93F1ED1B0A40036B04C /* LaunchScreen.storyboard */,
+				E48FC9421ED1B0A40036B04C /* Info.plist */,
+				E48FC9311ED1B0A30036B04C /* Supporting Files */,
+			);
+			path = QLTextMessage;
+			sourceTree = "<group>";
+		};
+		E48FC9311ED1B0A30036B04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E48FC9321ED1B0A30036B04C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E48FC94A1ED1B0A40036B04C /* QLTextMessageTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48FC94B1ED1B0A40036B04C /* QLTextMessageTests.m */,
+				E48FC94D1ED1B0A40036B04C /* Info.plist */,
+			);
+			path = QLTextMessageTests;
+			sourceTree = "<group>";
+		};
+		E48FC9551ED1B0A40036B04C /* QLTextMessageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E48FC9561ED1B0A40036B04C /* QLTextMessageUITests.m */,
+				E48FC9581ED1B0A40036B04C /* Info.plist */,
+			);
+			path = QLTextMessageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E48FC92D1ED1B0A30036B04C /* QLTextMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48FC95B1ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessage" */;
+			buildPhases = (
+				8A4D369BC31700CA77272941 /* [CP] Check Pods Manifest.lock */,
+				E48FC92A1ED1B0A30036B04C /* Sources */,
+				E48FC92B1ED1B0A30036B04C /* Frameworks */,
+				E48FC92C1ED1B0A30036B04C /* Resources */,
+				CC0BBDAC226FB2C9FADD208D /* [CP] Embed Pods Frameworks */,
+				BE2FFEE271347D63061E56EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLTextMessage;
+			productName = QLTextMessage;
+			productReference = E48FC92E1ED1B0A30036B04C /* QLTextMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E48FC9461ED1B0A40036B04C /* QLTextMessageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48FC95E1ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageTests" */;
+			buildPhases = (
+				E48FC9431ED1B0A40036B04C /* Sources */,
+				E48FC9441ED1B0A40036B04C /* Frameworks */,
+				E48FC9451ED1B0A40036B04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48FC9491ED1B0A40036B04C /* PBXTargetDependency */,
+			);
+			name = QLTextMessageTests;
+			productName = QLTextMessageTests;
+			productReference = E48FC9471ED1B0A40036B04C /* QLTextMessageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E48FC9511ED1B0A40036B04C /* QLTextMessageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48FC9611ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageUITests" */;
+			buildPhases = (
+				E48FC94E1ED1B0A40036B04C /* Sources */,
+				E48FC94F1ED1B0A40036B04C /* Frameworks */,
+				E48FC9501ED1B0A40036B04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48FC9541ED1B0A40036B04C /* PBXTargetDependency */,
+			);
+			name = QLTextMessageUITests;
+			productName = QLTextMessageUITests;
+			productReference = E48FC9521ED1B0A40036B04C /* QLTextMessageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E48FC9261ED1B0A30036B04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MQL-IT";
+				TargetAttributes = {
+					E48FC92D1ED1B0A30036B04C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 883RB2PT5K;
+						ProvisioningStyle = Automatic;
+					};
+					E48FC9461ED1B0A40036B04C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 883RB2PT5K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E48FC92D1ED1B0A30036B04C;
+					};
+					E48FC9511ED1B0A40036B04C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 883RB2PT5K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E48FC92D1ED1B0A30036B04C;
+					};
+				};
+			};
+			buildConfigurationList = E48FC9291ED1B0A30036B04C /* Build configuration list for PBXProject "QLTextMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E48FC9251ED1B0A30036B04C;
+			productRefGroup = E48FC92F1ED1B0A30036B04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48FC92D1ED1B0A30036B04C /* QLTextMessage */,
+				E48FC9461ED1B0A40036B04C /* QLTextMessageTests */,
+				E48FC9511ED1B0A40036B04C /* QLTextMessageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E48FC92C1ED1B0A30036B04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48FC9411ED1B0A40036B04C /* LaunchScreen.storyboard in Resources */,
+				E48FC93E1ED1B0A40036B04C /* Assets.xcassets in Resources */,
+				E48FC93C1ED1B0A40036B04C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC9451ED1B0A40036B04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC9501ED1B0A40036B04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A4D369BC31700CA77272941 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE2FFEE271347D63061E56EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLTextMessage/Pods-QLTextMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0BBDAC226FB2C9FADD208D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QLTextMessage/Pods-QLTextMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E48FC92A1ED1B0A30036B04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48FC9391ED1B0A40036B04C /* ViewController.m in Sources */,
+				E48FC9361ED1B0A30036B04C /* AppDelegate.m in Sources */,
+				E48FC9331ED1B0A30036B04C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC9431ED1B0A40036B04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48FC94C1ED1B0A40036B04C /* QLTextMessageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48FC94E1ED1B0A40036B04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48FC9571ED1B0A40036B04C /* QLTextMessageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E48FC9491ED1B0A40036B04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48FC92D1ED1B0A30036B04C /* QLTextMessage */;
+			targetProxy = E48FC9481ED1B0A40036B04C /* PBXContainerItemProxy */;
+		};
+		E48FC9541ED1B0A40036B04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48FC92D1ED1B0A30036B04C /* QLTextMessage */;
+			targetProxy = E48FC9531ED1B0A40036B04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E48FC93A1ED1B0A40036B04C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48FC93B1ED1B0A40036B04C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E48FC93F1ED1B0A40036B04C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48FC9401ED1B0A40036B04C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E48FC9591ED1B0A40036B04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E48FC95A1ED1B0A40036B04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E48FC95C1ED1B0A40036B04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8C3D329D9DBA8C34AFB8D1 /* Pods-QLTextMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E48FC95D1ED1B0A40036B04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D307DF14FCD88C938583D8D8 /* Pods-QLTextMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E48FC95F1ED1B0A40036B04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLTextMessage.app/QLTextMessage";
+			};
+			name = Debug;
+		};
+		E48FC9601ED1B0A40036B04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QLTextMessage.app/QLTextMessage";
+			};
+			name = Release;
+		};
+		E48FC9621ED1B0A40036B04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLTextMessage;
+			};
+			name = Debug;
+		};
+		E48FC9631ED1B0A40036B04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 883RB2PT5K;
+				INFOPLIST_FILE = QLTextMessageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jujiao.com.QLTextMessageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QLTextMessage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E48FC9291ED1B0A30036B04C /* Build configuration list for PBXProject "QLTextMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48FC9591ED1B0A40036B04C /* Debug */,
+				E48FC95A1ED1B0A40036B04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48FC95B1ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48FC95C1ED1B0A40036B04C /* Debug */,
+				E48FC95D1ED1B0A40036B04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E48FC95E1ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48FC95F1ED1B0A40036B04C /* Debug */,
+				E48FC9601ED1B0A40036B04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E48FC9611ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48FC9621ED1B0A40036B04C /* Debug */,
+				E48FC9631ED1B0A40036B04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E48FC9261ED1B0A30036B04C /* Project object */;
+}
