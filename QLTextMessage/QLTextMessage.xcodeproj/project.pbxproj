@@ -16,6 +16,9 @@
 		E48FC9411ED1B0A40036B04C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48FC93F1ED1B0A40036B04C /* LaunchScreen.storyboard */; };
 		E48FC94C1ED1B0A40036B04C /* QLTextMessageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC94B1ED1B0A40036B04C /* QLTextMessageTests.m */; };
 		E48FC9571ED1B0A40036B04C /* QLTextMessageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9561ED1B0A40036B04C /* QLTextMessageUITests.m */; };
+		E48FC9661ED1B4590036B04C /* QLMessageController.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9651ED1B4590036B04C /* QLMessageController.m */; };
+		E48FC9691ED1B7B00036B04C /* QLTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC9681ED1B7B00036B04C /* QLTextMessageCell.m */; };
+		E48FC96C1ED1BCCA0036B04C /* MessageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E48FC96B1ED1BCCA0036B04C /* MessageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,12 @@
 		E48FC9521ED1B0A40036B04C /* QLTextMessageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLTextMessageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48FC9561ED1B0A40036B04C /* QLTextMessageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QLTextMessageUITests.m; sourceTree = "<group>"; };
 		E48FC9581ED1B0A40036B04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48FC9641ED1B4590036B04C /* QLMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLMessageController.h; sourceTree = "<group>"; };
+		E48FC9651ED1B4590036B04C /* QLMessageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLMessageController.m; sourceTree = "<group>"; };
+		E48FC9671ED1B7B00036B04C /* QLTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLTextMessageCell.h; sourceTree = "<group>"; };
+		E48FC9681ED1B7B00036B04C /* QLTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLTextMessageCell.m; sourceTree = "<group>"; };
+		E48FC96A1ED1BCCA0036B04C /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
+		E48FC96B1ED1BCCA0036B04C /* MessageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +138,12 @@
 				E48FC9351ED1B0A30036B04C /* AppDelegate.m */,
 				E48FC9371ED1B0A30036B04C /* ViewController.h */,
 				E48FC9381ED1B0A40036B04C /* ViewController.m */,
+				E48FC9641ED1B4590036B04C /* QLMessageController.h */,
+				E48FC9651ED1B4590036B04C /* QLMessageController.m */,
+				E48FC9671ED1B7B00036B04C /* QLTextMessageCell.h */,
+				E48FC9681ED1B7B00036B04C /* QLTextMessageCell.m */,
+				E48FC96A1ED1BCCA0036B04C /* MessageModel.h */,
+				E48FC96B1ED1BCCA0036B04C /* MessageModel.m */,
 				E48FC93A1ED1B0A40036B04C /* Main.storyboard */,
 				E48FC93D1ED1B0A40036B04C /* Assets.xcassets */,
 				E48FC93F1ED1B0A40036B04C /* LaunchScreen.storyboard */,
@@ -353,7 +368,10 @@
 			files = (
 				E48FC9391ED1B0A40036B04C /* ViewController.m in Sources */,
 				E48FC9361ED1B0A30036B04C /* AppDelegate.m in Sources */,
+				E48FC9691ED1B7B00036B04C /* QLTextMessageCell.m in Sources */,
+				E48FC9661ED1B4590036B04C /* QLMessageController.m in Sources */,
 				E48FC9331ED1B0A30036B04C /* main.m in Sources */,
+				E48FC96C1ED1BCCA0036B04C /* MessageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +611,7 @@
 				E48FC95D1ED1B0A40036B04C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E48FC95E1ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +620,7 @@
 				E48FC9601ED1B0A40036B04C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E48FC9611ED1B0A40036B04C /* Build configuration list for PBXNativeTarget "QLTextMessageUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +629,7 @@
 				E48FC9631ED1B0A40036B04C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
