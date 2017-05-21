@@ -80,20 +80,20 @@
         make.bottom.equalTo(self.contentView.mas_bottom).offset(-10);
     }];
     
+    
+    [_bubbleView mas_updateConstraints:^(MASConstraintMaker *make) {
+        make.right.equalTo(_detailLabel.mas_right).offset(5);
+        make.bottom.equalTo(_detailLabel.mas_bottom).offset(5);
+    }];
     /**
      Hugging priority 确定view有多大的优先级阻止自己变大。
      
      Compression Resistance priority确定有多大的优先级阻止自己变小。
      
      可以注释下面两行代码来理解:
-        ---注释后,消息长度(不满一行, 重点)时,展示消息的label会变长来适应背景图片;
-        ---取消注释, 把lable的HuggingPriority设置的比背景视图的大,相当于label阻止自己变大的能力大于背景视图,此时背景视图会变短来适应label
+     ---注释后,消息长度(不满一行, 重点)时,展示消息的label会变长来适应背景图片;
+     ---取消注释, 把lable的HuggingPriority设置的比背景视图的大,相当于label阻止自己变大的能力大于背景视图,此时背景视图会变短来适应label
      */
-    
-    [_bubbleView mas_updateConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(_detailLabel.mas_right).offset(5);
-        make.bottom.equalTo(_detailLabel.mas_bottom).offset(5);
-    }];
     //detailLabel的HuggingPriority要设置为最高的优先级, 不然cell重用的时候有问题
     [_detailLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisHorizontal];
     [_bubbleView setContentHuggingPriority:UILayoutPriorityDefaultLow forAxis:UILayoutConstraintAxisHorizontal];
