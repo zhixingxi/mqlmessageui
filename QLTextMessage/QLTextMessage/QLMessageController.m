@@ -41,16 +41,25 @@ static NSString *const cellID = @"QLTextMessageCell";
     NSString *message = @"我是一条消息";
     
     for (int i = 0; i < 20; i++) {
-        NSInteger num = (arc4random() % 20) + 1;
-        NSMutableString *str = [@"" mutableCopy];
-        NSLog(@"%@", [NSThread currentThread]);
-        for (int i = 0; i < num; i++) {
-            [str appendString:message];
-        }
-        MessageModel *model = [[MessageModel alloc]init];
-        model.textContent = str;
-        [self.dataArray addObject:model];
- 
+        dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+            NSInteger num = (arc4random() % 20) + 1;
+            NSMutableString *str = [@"" mutableCopy];
+            NSLog(@"47====%@", [NSThread currentThread]);
+            for (int i = 0; i < num; i++) {
+                [str appendString:message];
+            }
+            MessageModel *model = [[MessageModel alloc]init];
+            model.textContent = str;
+//MARK: ===== 使用异步并行线程, 会造成多个线程同时访问dataArray对象, 使用@synchronized加锁,保证线程安全
+            
+            /*
+             调用 sychronized 的每个对象，Objective-C runtime 都会为其分配一个递归锁并存储在哈希表中。
+             */
+            @synchronized (self) {
+                [self.dataArray addObject:model];
+                NSLog(@"%@", @"===========");
+            }
+        });
     }
 
     
